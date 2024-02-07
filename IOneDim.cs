@@ -8,6 +8,8 @@ namespace task_3_4
 {
     interface IOneDim : IArrayBase
     {
+        int Length { get; }
 
+        int this[int index] { get; set; }
     }
 }
