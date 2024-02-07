@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace task_3_4
 {
-    interface IOneDim : IArrayBase
+    interface IParent : IPrinter
     {
-        int Length { get; }
+        void RndEntry();
 
-        int this[int index] { get; set; }
+        void UserEntry();
+
+        double AverageValue();
     }
 }

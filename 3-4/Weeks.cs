@@ -11,8 +11,10 @@ namespace task_3_4
         void IPrinter.Print()        
         {
             foreach (weeks i in Enum.GetValues(typeof(weeks)))
+            {
                 Console.WriteLine(i);
-
+            }
+            
             Console.WriteLine();
         }
 

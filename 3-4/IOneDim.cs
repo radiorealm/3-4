@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace task_3_4
 {
-    interface ITwoDim: IArrayBase
+    interface IOneDim : IParent
     {
-        void Snake_Print();
+        int Length { get; }
+
+        int this[int index] { get; set; }
     }
 }

@@ -7,7 +7,7 @@ namespace task_3_4
     {
         static void Main()
         {
-            Parent[] arr = new Parent[3];
+            IParent[] arr = new IParent[3];
 
             Console.WriteLine("Выберите способ ввода для всех массивов (false, если случайно, true, если вручную)");
             bool entry = bool.Parse(Console.ReadLine());

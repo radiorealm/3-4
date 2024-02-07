@@ -2,7 +2,7 @@
 
 namespace task_3_4
 {
-    abstract class Parent : IPrinter, IArrayBase
+    abstract class Parent : IPrinter, IParent
     {
         protected static Random rnd = new Random();
 

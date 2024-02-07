@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace task_3_4
 {
-    interface IArrayBase : IPrinter
+    interface IJaggedDim: IParent
     {
-        void RndEntry();
-
-        void UserEntry();
-
-        double AverageValue();
+        void AverageValueMassives();
     }
 }

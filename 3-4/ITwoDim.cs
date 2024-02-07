@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace task_3_4
 {
-    interface IJaggedDim: IArrayBase
+    interface ITwoDim: IParent
     {
-        void AverageValueMassives();
+        void Snake_Print();
     }
 }
