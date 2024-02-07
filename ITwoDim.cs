@@ -8,6 +8,6 @@ namespace task_3_4
 {
     interface ITwoDim: IArrayBase
     {
-
+        void Snake_Print();
     }
 }
