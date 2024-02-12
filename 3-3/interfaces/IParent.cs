@@ -8,10 +8,6 @@ namespace task_3_4
 {
     interface IParent : IPrinter
     {
-        void RndEntry();
-
-        void UserEntry();
-
         double AverageValue();
     }
 }

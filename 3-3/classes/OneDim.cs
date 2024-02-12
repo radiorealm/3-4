@@ -21,14 +21,7 @@ namespace task_3_4
         {
             array = new int[n];
 
-            if (!entry)
-            {
-                RndEntry();
-            }
-            else
-            {
-                UserEntry();
-            }
+            Parent.Fill();
         }
 
         public override void RndEntry()
