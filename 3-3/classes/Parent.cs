@@ -16,7 +16,7 @@ namespace task_3_4
 
         public abstract double AverageValue();
 
-        public void Fill()
+/*        public void Fill()
         {
             if (!entry)
             {
@@ -27,5 +27,6 @@ namespace task_3_4
                 UserEntry();
             }
         }
+             надо бы доделать, но без норм отладки страшно...*/
     }
 }
